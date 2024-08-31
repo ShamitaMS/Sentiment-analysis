@@ -1,0 +1,7 @@
+LOAD DATA INFILE 'cleaned_output2.csv'
+INTO TABLE tweets
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(id, text, date, sentiment_category);
