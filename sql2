@@ -1,0 +1,6 @@
+CREATE TABLE tweets (
+    id INT,
+    text TEXT,
+    date DATE,
+    sentiment_category VARCHAR(50)
+);
